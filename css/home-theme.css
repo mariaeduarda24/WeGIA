@@ -1,4 +1,25 @@
+.back-container {
 
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: auto;
+  }
+
+  .row {
+	  margin: auto;
+  }
+  .left-arrow-icon {
+	  cursor: pointer;
+  }
+  .back {
+	  font-size: 20px;
+	  cursor: pointer;
+  }
+  .hidden {
+	display: none;
+  }
 @media screen and (min-width: 769px) {
 	.i{
 		background: #fff;
